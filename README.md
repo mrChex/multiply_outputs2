@@ -1,5 +1,4 @@
 ## git clone > npm install
 
-## webpack => create many bundles files from country array ([name].bundle.js)
-## webpack -country#ua => create bundle file with ua conf (bundle.js)
-## open index.js and check last single bundle.js file
+## npm run-script build_all => create many bundles files from them folders
+## npm run-script watch -- --ua(hr, en) => create bundle file and watch him for some country
